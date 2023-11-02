@@ -3,7 +3,6 @@ import Footer from "./components/footer";
 import Home from "./components/pages/home";
 import Features from "./components/pages/features";
 import Sales from "./components/pages/onsale";
-import About from "./components/pages/about";
 import Client from "./components/pages/clients";
 import Service from "./components/pages/service";
 import Contact from "./components/pages/contact";
@@ -14,14 +13,12 @@ function App() {
     <div>
       <Navbar />
       <Home />
-     
       <Features />
       <Sales />      
       <Service />
       <Demo />
       <Client />
       <Contact />
-      <About />
       <Footer />
     </div>
   );
